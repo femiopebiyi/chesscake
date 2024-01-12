@@ -57,15 +57,6 @@ hamButton.addEventListener ("click", ()=>{
 
         hamMenu.classList.toggle("clickedd");
         
-
-
-
-
-        // if(hamMenu.style.display === "none"){
-        //     hamMenu.style.display = "flex"
-        // }else{
-        //     hamMenu.style.display = "none"
-        // }
         
 
         
@@ -76,7 +67,7 @@ hamButton.addEventListener ("click", ()=>{
   this.classList.toggle('close');
 });
 
-
+console.log("why")
 
 
 onSnapshot(colRef, (snapshot)=>{
