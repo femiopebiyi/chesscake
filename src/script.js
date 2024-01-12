@@ -67,7 +67,7 @@ hamButton.addEventListener ("click", ()=>{
   this.classList.toggle('close');
 });
 
-console.log("why")
+
 
 
 onSnapshot(colRef, (snapshot)=>{
